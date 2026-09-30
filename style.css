@@ -122,3 +122,33 @@ footer {
 footer a {
     color: white;
 }
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: var(--primary);
+    color: white;
+    padding: 14px;
+    text-align: left;
+}
+
+td {
+    padding: 14px;
+    border-bottom: 1px solid var(--secondary);
+}
+
+tr:nth-child(even) {
+    background-color: var(--background);
+}
+
+tr:hover {
+    background-color: var(--secondary);
+}
