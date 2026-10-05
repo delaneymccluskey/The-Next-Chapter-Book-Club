@@ -170,7 +170,8 @@ tr:hover {
 .recommendation img {
     width: 150px;
     height: 225px;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: white;
     border-radius: 6px;
     flex-shrink: 0;
 }
