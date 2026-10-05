@@ -166,15 +166,6 @@ tr:hover {
     border-bottom: none;
 }
 
-.recommendation img {
-    width: 150px;
-    height: 225px;
-    object-fit: contain;
-    background-color: white;
-    border-radius: 6px;
-    flex: 0 0 150px;
-}
-
 .recommendation-content {
     flex: 1;
     min-width: 0;
@@ -182,4 +173,14 @@ tr:hover {
 
 .recommendation-content h3 {
     margin-top: 0;
+}
+
+.book-cover {
+    width: 150px !important;
+    height: 225px !important;
+    object-fit: contain !important;
+    background-color: white;
+    border-radius: 6px;
+    flex: 0 0 150px;
+    display: block;
 }
